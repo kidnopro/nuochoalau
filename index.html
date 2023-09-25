@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="shortcut icon" href="img/LOGO URL.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="home.css">
+    <title>Home Perfumania</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <section class="header-icon">
+                <i class='bx bx-location-plus'> <a href="">Stores</a></i>
+                <i class='bx bx-car'> <a href="">Track Order</a></i>
+            </section>
+            <img src="img/logo.webp" alt="">
+            <section class="header-icons">
+                <i class='bx bx-user' > <a href="">Sign In / Register</a></i>
+                <i class='bx bx-cart' > <a href="">Cart</a></i>
+            </section>
+        </header>
+        <div class="header-menu">
+            <section class="navbar">
+                <ul>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Clearance</a></li>
+                    <li><a href="#">Gifts</a></li>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Shop By Brand</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                </ul>
+            </section>
+            
+            <section class="search">
+                <input type="text" id="search-input"  placeholder="Search">
+                
+            </section>
+        </div>
+       <div class="banner">
+            <img src="img/banner.webp" alt="" id="hinh"> 
+       </div>
+        <script>
+        var anh = [
+            "img/a2.jpg",
+            "img/banner.webp",
+               
+        ]
+        </script>
+
+        <script>
+        var index = 0 ;
+
+        function tien() {
+            index++;
+            if( index == anh.length ) index = 0 ;
+            document.getElementById("hinh").src = anh[index]
+        }
+
+        function lui() {
+            index--;
+            if( index < 0 ) index == anh.length -1 ;
+            document.getElementById("hinh").src = anh[index]
+        }
+        setInterval("tien()",2500)
+        </script>
+    <!-- end banner -->
+    <div class="title-brand">
+        <a href="#" class="alone">OUR FRAGRANCE BRANDS</a>
+    </div>
+    <div class="title">
+        <section class="logo-title">
+            <a href=""><p>DIOR</p></a>
+        </section>
+
+        <section class="logo-title">
+            <a href=""><p>FORD</p></a>
+        </section>
+
+        <section class="logo-title">
+            <a href=""><p>GUCCI</p></a>
+       </section>
+
+       <section class="logo-title">
+            <a href=""><p>ARMAN</p></a>
+       </section>
+
+       <section class="logo-title">
+            <a href=""><p>PACO</p></a>
+       </section>
+
+       <section class="logo-title">
+            <a href=""><p>GIVEN</p></a>
+       </section>
+    </div>
+    <!-- end -->
+    <div class="title-brand2">
+        <a href="#">BEST SELLING FRAGRANCES</a>
+        <p>Shop Our Top Selling Fragrances At Discounted Prices!</p>
+    </div>
+    <div class="product">
+        <section class="main">
+           <marquee behavior="" direction="">Upto 22% Off</marquee>
+            <a href=""><img src="img/main1.jpg" alt=""></a>
+            <h5>CREED</h5>
+            <p>Aventus For Men By Creed <br> Eau De Parfum Spay</p>
+            <h3>$29.95 - $99.95</h3>
+           <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+               <h6>732</h6>
+           </section>
+               
+
+        </section>
+
+        <section class="main">
+            <marquee behavior="" direction="">Upto 25% Off</marquee>
+            <a href=""><img src="img/GA_6.jpg" alt=""></a>
+            <h5>GIOGRIO ARMANI</h5>
+            <p>Accqua Di Gio Eau De Toilette Spray For Men</p>
+            <h3>$54.95 - $129.92</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>503</h6>
+           </section>
+        </section>
+
+        <section class="main">
+            <marquee behavior="" direction="">Upto 21% Off</marquee>
+            <a href=""><img src="img/Versace-Versace-Bright-Crystal-Womens-Eau-De-Toilette-EDT-Spray-6.7-oz.-Best-Price-Fragrance-Parfume-FragranceOutlet.com-MAIN.jpg" alt=""></a>
+            <h5>VERSACE</h5>
+            <p>Bright Crystal Eau De For Women By Versace</p>
+            <h3>$53.95 - $120.95</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>478</h6>
+           </section>
+        </section>
+
+        <section class="main">
+            <marquee behavior="" direction="">Upto 25% Off</marquee>
+            <a href=""><img src="img/main2.jpg" alt=""></a>
+            <h5>DADIDOFF</h5>
+            <p>Dadidoff Chorme For Men By Azzaro By Spray</p>
+            <h3>$36.75 - $94.32</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>415</h6>
+           </section>
+        </section>
+
+        <section class="main">
+            <marquee behavior="" direction="">Upto 23% Off</marquee>
+            <a href=""><img src="img/Versace-Man-Eau-Fraiche-Mens-Eau-de-Toilette-Spray-6.7-Best-Price-Fragrance-Parfume-FragranceOutlet.com-Main.jpg" alt=""></a>
+            <h5>VERSACE</h5>
+            <p>Man Eau Fraiche De Toilete Spray For Men By Versace</p>
+            <h3>$49.95 - $109.34</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>374</h6>
+           </section>
+        </section>
+
+        <section class="main">
+            <marquee behavior="" direction="">Upto 29% Off</marquee>
+            <a href=""><img src="img/Burberry-Brit-Men-Eau-de-Toilette-1.6-Best-Price-Fragrance-Parfume-FragranceOutlet.com-MAIN (1).jpg" alt=""></a>
+            <h5>BURBERRY</h5>
+            <p>Burbrry Brit For Men Eau De Toileete Spray</p>
+            <h3>$99.95 - $19.34</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>388</h6>
+           </section>
+        </section>
+    </div>
+    <div class="add">
+        <a href="">Shop Best Selling Fragrances<i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+    <!-- end -->
+    <div class="title-brand2">
+        <a href="#">BUNDLE DEALS</a>
+        <p>Limited Quantities Available These Bundle Duos Provide You With Bigger Savings Than Ever Before!</p>
+    </div>
+
+    <div class="product1">
+        <section class="main1">
+            <marquee behavior="" direction="">Upto 21% Off</marquee>
+            <a href=""><img src="img/gio-versace.jpg" alt=""></a>
+            <p>Bundle For Men: Aqua Di Gio By Armani And Eros By Versace</p>
+            <h3>$149.85</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>388</h6>
+           </section>
+        </section>
+
+        <section class="main1">
+            <marquee behavior="" direction="">Upto 46% Off</marquee>
+            <a href=""><img src="img/tom.jpg" alt=""></a>
+            <p>Bundle For Men: Chrome By Azzo And Versace Pour Homme Azzo</p>
+            <h3>$99.95</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>343</h6>
+           </section>
+        </section>
+
+        <section class="main1">
+            <marquee behavior="" direction="">Upto 28% Off</marquee>
+            <a href=""><img src="img/versace-dolce.jpg" alt=""></a>
+            
+            <p>Bundle For Girl: Bright Crystal By Versace Abd Light Blue By D&G</p>
+            <h3>$149.95</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>318</h6>
+           </section>
+        </section>
+
+        <section class="main1">
+            <marquee behavior="" direction="">Upto 39% Off</marquee>
+            <a href=""><img src="img/tom2.jpg" alt=""></a>
+            
+            <p>Bundle Deal His & Her: Burberry Brit By Burberry For All</p>
+            <h3>$149.92</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>284</h6>
+           </section>
+        </section>
+
+        <section class="main1">
+            <marquee behavior="" direction="">Upto 32% Off</marquee>
+            <a href=""><img src="img/Perf_PoloRed_PoloBlue_Bundle.jpg" alt=""></a>
+            <p>Bundle For Men: Polo Red By Ralph Lauren And Polo Blue By Ralh</p>
+            <h3>$124.45</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>242</h6>
+           </section>
+        </section>
+
+        <section class="main1">
+            <marquee behavior="" direction="">Upto 29% Off</marquee>
+            <a href=""><img src="img/Perf_Paco_Rabanne_Bundle1.jpg" alt=""></a>
+            <p>Bundlee For Girl: Invictus By Paco Rabane And 1 Millions By Paco</p>
+            <h3>$149.95</h3>
+            <section class="star">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>187</h6>
+           </section>
+        </section>
+    </div>
+    <div class="add1">
+        <a href="">Shop Bundle Super Hot Deals<i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+    <div class="board">
+        <section class="main-board">
+            <i class='bx bxs-plane-alt' ></i>
+            <h4>FREE SHIPPING</h4>
+            <p>Enjoy Free U.S Shipping On Order Over $59 <br> (Excludes Hawai & Alaka)</p>
+        </section>
+
+        <section class="main-board">
+            <i class='bx bxs-crown' ></i>
+            <h4>100% AUTHENTIC</h4>
+            <p>Enjoy Genuide Designer Fragrances  At <br> Discounted Prices By King</p>
+        </section>
+
+        <section class="main-board">
+            <i class='bx bxs-star' ></i>
+            <h4>TOP RATED PERFUME</h4>
+            <p>Enjoy Free U.S Shipping On Order Over $59 <br> (Excludes Hawai & Alaka)</p>
+        </section>
+
+        <section class="main-board">
+            <i class='bx bxs-lock-alt'></i>
+            <h4>SECURITY</h4>
+            <p>Enjoy Free U.S Shipping On Order Over $59 <br> (Excludes Hawai & Alaka)</p>
+        </section>
+    </div>
+
+    <div class="title-brand2">
+        <a href="#">SCENT OF AUTUMN</a>
+        <p>From Cozy Atunm Spice Blends To Enchanting Woody Notes.The Most Popular Fail Fragrances Evoke A Sense Of Crisp Warm And Commforting Sophiscation</p>
+    </div>
+
+    <div class="product3">
+        <section class="main3">
+           <marquee behavior="" direction="">Upto 50% Off</marquee>
+            <a href=""><img src="img/altelier_de_castel_pour_homme.jpg" alt=""></a>
+            <h5>ATELIER DE CASTEL</h5>
+            <p>Atelier De Castel Eau De Parfum Spray For Men</p>
+            <h3>$99.95</h3>
+           <section class="star3">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+               <h6>132</h6>
+           </section>
+               
+
+        </section>
+
+        <section class="main3">
+            <marquee behavior="" direction="">Upto 53% Off</marquee>
+            <a href=""><img src="img/paco.jpg" alt=""></a>
+            <h5>PACO RABANNE</h5>
+            <p>1 Million For Men By Paco Rabanne Eau De Toilette</p>
+            <h3>$62.00 - $119.92</h3>
+            <section class="star3">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>182</h6>
+           </section>
+        </section>
+
+        <section class="main3">
+            <marquee behavior="" direction="">Upto 21% Off</marquee>
+            <a href=""><img src="img/carolina.jpg" alt=""></a>
+            <h5>CAROLINA HERRENA</h5>
+            <p>212 For Men By Carolina Herra Eau De Toilte Spray</p>
+            <h3>$43.95 - $109.95</h3>
+            <section class="star3">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>132</h6>
+           </section>
+        </section>
+
+        <section class="main3">
+            <marquee behavior="" direction="">Upto 25% Off</marquee>
+            <a href=""><img src="img/givenchya.jpg" alt=""></a>
+            <h5>GIVENCHY</h5>
+            <p>Amarige Eau De  Spray For Women By Givenchy</p>
+            <h3>$46.75 - $94.99</h3>
+            <section class="star3">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>115</h6>
+           </section>
+        </section>
+
+        <section class="main3">
+            <marquee behavior="" direction="">Upto 23% Off</marquee>
+            <a href=""><img src="img/doche.jpg" alt=""></a>
+            <h5>DOLCE AND GABBANA</h5>
+            <p>The One For Men By Dolce & Gabbna Eau De</p>
+            <h3>$46.95 - $111.34</h3>
+            <section class="star3">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>155</h6>
+           </section>
+        </section>
+
+        <section class="main3">
+            <marquee behavior="" direction="">Upto 29% Off</marquee>
+            <a href=""><img src="img/joop.jpg" alt=""></a>
+            <h5>JOOP MAN</h5>
+            <p>Joop! Homeme For Men By Joop Eau De</p>
+            <h3>$69.95 - $129.34</h3>
+            <section class="star3">
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <span><i class='bx bxs-star'></i></span>
+                <h6>88</h6>
+           </section>
+        </section>
+    </div>
+    <div class="add">
+        <a href="">Shop Scents Of Autumn Vip<i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+    <div class="banner2">
+        <img src="img/banner2.jpg" alt="">
+    </div>
+   <hr>
+   
+   <div class="title-brand2">
+    <a href="#">POPULAR CATECOGIES</a>
+   </div>
+   <!-- end -->
+   <div class="show">
+      <section class="main-show">
+        <a href=""><img src="img/show1.webp" alt=""> </a>
+      </section>
+
+      <section class="main-show">
+        <a href="">  <img src="img/show4.webp" alt=""></a>
+      </section>
+   </div>
+   <hr>
+   <div class="title-brand2">
+    <a href="#">FROM THE BLOG</a>
+   </div>
+   <!-- end -->
+   <div class="blog">
+        <div class="main-blog">
+           <a href=""><img src="img/blog1.webp" alt=""></a>
+           <h3>Unveiling The Best Fragrances For Father Day</h3>
+           <p> is a special occasion dedicated to celebrating the remarkable men in our lives. It's an opportunity to express gratitude and show...</p>
+           <a href=""><h4>Read More</h4></a>
+        </div>
+
+        <div class="main-blog">
+            <a href=""><img src="img/blog2.webp" alt=""></a>
+            <h3>What Are The Perfumes That Top Celebri Wear?</h3>
+            <p>Celebrities have long been influential figures in the world of fashion and beauty, and their fragrance choices are no exception</p>
+            <a href=""><h4>Read More</h4></a>
+         </div>
+
+         <div class="main-blog">
+            <a href=""><img src="img/blog3.webp" alt=""></a>
+            <h3>Best Wedding Perfume Should Try For The Best</h3>
+            <p>Elevate Your Special Day with the Best Wedding Perfumes: Unveiling the Most Exquisite Fragrances for Your Big Day Your wedding day</p>
+            <a href=""><h4>Read More</h4></a>
+         </div>
+   </div>
+   <div class="add">
+    <a href="">Read All Blog Posts Interesting<i class='bx bx-right-arrow-alt'></i></a>
+   </div>
+
+   <!-- end -->
+   <div class="banner-email">
+        <h1>jdsaiodjas</h1>
+   </div>
+   
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- end container  -->
+    </div>
+</body>
+</html>
